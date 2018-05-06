@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TopRateViewController: UIViewController {
+class TopRateViewController: UIViewController, UINavigationControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,7 +23,7 @@ class TopRateViewController: UIViewController {
     }
     
     @objc func dropdownBtnClicked() {
-        print("123")
+        self.navigationController?.pushViewController(TestViewController(), animated: true)
     }
 }
 

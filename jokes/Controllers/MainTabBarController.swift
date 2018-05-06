@@ -43,10 +43,8 @@ class MainTabBarController: UITabBarController {
         vc.tabBarItem.title = title
         vc.tabBarItem.image = image
         vc.tabBarItem.selectedImage = selectedImage
-        let navWrapper = UINavigationController(rootViewController: vc)
+        let navWrapper = CustomizedNavVc(rootViewController: vc)
         navWrapper.navigationBar.setBackgroundImage(#imageLiteral(resourceName: "navigationbarBackgroundWhite"), for: .default)
         self.addChildViewController(navWrapper)
     }
-    
-    
 }

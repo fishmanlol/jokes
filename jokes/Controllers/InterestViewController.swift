@@ -23,6 +23,6 @@ class InterestViewController: UIViewController {
     }
     
     @objc func friendsRecommendBtnClicked() {
-        print("123")
+        self.navigationController?.pushViewController(InterestRecommendViewController(), animated: true)
     }
 }

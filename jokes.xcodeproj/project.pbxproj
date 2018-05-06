@@ -7,8 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		101CAFFF209BB0340062E84E /* CustomizedNavVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101CAFFE209BB0340062E84E /* CustomizedNavVc.swift */; };
+		101CB001209BB2960062E84E /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101CB000209BB2960062E84E /* TestViewController.swift */; };
+		101CB003209BC1BB0062E84E /* InterestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 101CB002209BC1BB0062E84E /* InterestView.xib */; };
 		104A9C97209A9B8A0065046C /* UIBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104A9C96209A9B8A0065046C /* UIBarButtonItem.swift */; };
 		104A9C9C209AA47A0065046C /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104A9C9B209AA47A0065046C /* UIColor.swift */; };
+		106633DF209D193B00519EB2 /* CategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 106633DE209D193B00519EB2 /* CategoryCell.xib */; };
+		106633E1209D1BB900519EB2 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106633E0209D1BB900519EB2 /* CategoryCell.swift */; };
+		10823BE3209BD284008E87C5 /* InterestRecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10823BE1209BD284008E87C5 /* InterestRecommendViewController.swift */; };
+		10823BE4209BD284008E87C5 /* InterestRecommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10823BE2209BD284008E87C5 /* InterestRecommendViewController.xib */; };
+		10823BE7209BEB8B008E87C5 /* InterestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10823BE6209BEB8B008E87C5 /* InterestType.swift */; };
 		10EA8F902098E93000D12457 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EA8F8F2098E93000D12457 /* AppDelegate.swift */; };
 		10EA8F952098E93000D12457 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10EA8F932098E93000D12457 /* Main.storyboard */; };
 		10EA8F972098E93100D12457 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10EA8F962098E93100D12457 /* Assets.xcassets */; };
@@ -19,11 +27,20 @@
 		10EA8FAC2099169000D12457 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EA8FAB2099169000D12457 /* MeViewController.swift */; };
 		10EA8FAE2099241900D12457 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EA8FAD2099241900D12457 /* CustomTabBar.swift */; };
 		10EA8FB02099394000D12457 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EA8FAF2099394000D12457 /* UIView.swift */; };
+		1B05FAA4E637158465A6EE5C /* Pods_jokes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA58E3419B7A33A5D9CEAD9 /* Pods_jokes.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		101CAFFE209BB0340062E84E /* CustomizedNavVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizedNavVc.swift; sourceTree = "<group>"; };
+		101CB000209BB2960062E84E /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		101CB002209BC1BB0062E84E /* InterestView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InterestView.xib; sourceTree = "<group>"; };
 		104A9C96209A9B8A0065046C /* UIBarButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBarButtonItem.swift; sourceTree = "<group>"; };
 		104A9C9B209AA47A0065046C /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		106633DE209D193B00519EB2 /* CategoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCell.xib; sourceTree = "<group>"; };
+		106633E0209D1BB900519EB2 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		10823BE1209BD284008E87C5 /* InterestRecommendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestRecommendViewController.swift; sourceTree = "<group>"; };
+		10823BE2209BD284008E87C5 /* InterestRecommendViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InterestRecommendViewController.xib; sourceTree = "<group>"; };
+		10823BE6209BEB8B008E87C5 /* InterestType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestType.swift; sourceTree = "<group>"; };
 		10EA8F8C2098E93000D12457 /* jokes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jokes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10EA8F8F2098E93000D12457 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10EA8F942098E93000D12457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -36,6 +53,9 @@
 		10EA8FAB2099169000D12457 /* MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
 		10EA8FAD2099241900D12457 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		10EA8FAF2099394000D12457 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		9FA58E3419B7A33A5D9CEAD9 /* Pods_jokes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jokes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1874335DF787A886F88C9C2 /* Pods-jokes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jokes.release.xcconfig"; path = "Pods/Target Support Files/Pods-jokes/Pods-jokes.release.xcconfig"; sourceTree = "<group>"; };
+		FE7591BA162F52997ADD63E6 /* Pods-jokes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jokes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-jokes/Pods-jokes.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,12 +63,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B05FAA4E637158465A6EE5C /* Pods_jokes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		101CAFFD209BAFD00062E84E /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				10EA8F8F2098E93000D12457 /* AppDelegate.swift */,
+				101CB000209BB2960062E84E /* TestViewController.swift */,
+				10EA8F932098E93000D12457 /* Main.storyboard */,
+				10EA8F962098E93100D12457 /* Assets.xcassets */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
 		104A9C98209A9B900065046C /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -59,12 +91,16 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		104A9C99209A9D450065046C /* SubClasses */ = {
+		104A9C99209A9D450065046C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				10823BE2209BD284008E87C5 /* InterestRecommendViewController.xib */,
 				10EA8FAD2099241900D12457 /* CustomTabBar.swift */,
+				101CB002209BC1BB0062E84E /* InterestView.xib */,
+				106633DE209D193B00519EB2 /* CategoryCell.xib */,
+				106633E0209D1BB900519EB2 /* CategoryCell.swift */,
 			);
-			path = SubClasses;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		104A9C9A209A9D670065046C /* Controllers */ = {
@@ -75,8 +111,18 @@
 				10EA8FA72099165100D12457 /* LastestViewController.swift */,
 				10EA8FA92099168000D12457 /* InterestViewController.swift */,
 				10EA8FAB2099169000D12457 /* MeViewController.swift */,
+				101CAFFE209BB0340062E84E /* CustomizedNavVc.swift */,
+				10823BE1209BD284008E87C5 /* InterestRecommendViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		10823BE5209BEB67008E87C5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				10823BE6209BEB8B008E87C5 /* InterestType.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		10EA8F832098E92F00D12457 = {
@@ -84,6 +130,8 @@
 			children = (
 				10EA8F8E2098E93000D12457 /* jokes */,
 				10EA8F8D2098E93000D12457 /* Products */,
+				255F19DDAAB170A13E89EA3F /* Pods */,
+				630EAAF2FFC85E554777464C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,15 +146,31 @@
 		10EA8F8E2098E93000D12457 /* jokes */ = {
 			isa = PBXGroup;
 			children = (
+				10823BE5209BEB67008E87C5 /* Models */,
 				104A9C9A209A9D670065046C /* Controllers */,
+				104A9C99209A9D450065046C /* Views */,
 				104A9C98209A9B900065046C /* Extensions */,
-				104A9C99209A9D450065046C /* SubClasses */,
-				10EA8F8F2098E93000D12457 /* AppDelegate.swift */,
-				10EA8F932098E93000D12457 /* Main.storyboard */,
-				10EA8F962098E93100D12457 /* Assets.xcassets */,
+				101CAFFD209BAFD00062E84E /* Others */,
 				10EA8F9B2098E93100D12457 /* Info.plist */,
 			);
 			path = jokes;
+			sourceTree = "<group>";
+		};
+		255F19DDAAB170A13E89EA3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE7591BA162F52997ADD63E6 /* Pods-jokes.debug.xcconfig */,
+				B1874335DF787A886F88C9C2 /* Pods-jokes.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		630EAAF2FFC85E554777464C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FA58E3419B7A33A5D9CEAD9 /* Pods_jokes.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -116,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10EA8F9E2098E93100D12457 /* Build configuration list for PBXNativeTarget "jokes" */;
 			buildPhases = (
+				0B1CFE3BD20EDCE88E59CCA7 /* [CP] Check Pods Manifest.lock */,
 				10EA8F882098E92F00D12457 /* Sources */,
 				10EA8F892098E92F00D12457 /* Frameworks */,
 				10EA8F8A2098E92F00D12457 /* Resources */,
+				DEF90B54B466C1DC14359517 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,12 +233,60 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				106633DF209D193B00519EB2 /* CategoryCell.xib in Resources */,
+				101CB003209BC1BB0062E84E /* InterestView.xib in Resources */,
 				10EA8F972098E93100D12457 /* Assets.xcassets in Resources */,
 				10EA8F952098E93000D12457 /* Main.storyboard in Resources */,
+				10823BE4209BD284008E87C5 /* InterestRecommendViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B1CFE3BD20EDCE88E59CCA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-jokes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEF90B54B466C1DC14359517 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-jokes/Pods-jokes-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-jokes/Pods-jokes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		10EA8F882098E92F00D12457 /* Sources */ = {
@@ -188,7 +302,12 @@
 				10EA8F902098E93000D12457 /* AppDelegate.swift in Sources */,
 				10EA8FB02099394000D12457 /* UIView.swift in Sources */,
 				10EA8FA220990EC500D12457 /* MainTabBarController.swift in Sources */,
+				10823BE3209BD284008E87C5 /* InterestRecommendViewController.swift in Sources */,
 				104A9C9C209AA47A0065046C /* UIColor.swift in Sources */,
+				101CB001209BB2960062E84E /* TestViewController.swift in Sources */,
+				101CAFFF209BB0340062E84E /* CustomizedNavVc.swift in Sources */,
+				10823BE7209BEB8B008E87C5 /* InterestType.swift in Sources */,
+				106633E1209D1BB900519EB2 /* CategoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,16 +441,14 @@
 		};
 		10EA8F9F2098E93100D12457 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE7591BA162F52997ADD63E6 /* Pods-jokes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DKH5D278T8;
 				INFOPLIST_FILE = jokes/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.werurty.jokes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -341,16 +458,14 @@
 		};
 		10EA8FA02098E93100D12457 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1874335DF787A886F88C9C2 /* Pods-jokes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DKH5D278T8;
 				INFOPLIST_FILE = jokes/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.werurty.jokes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

@@ -23,6 +23,6 @@ class LastestViewController: UIViewController {
     }
     
     @objc func dropdownBtnClicked() {
-        print("123")
+        self.navigationController?.pushViewController(TestViewController(), animated: true)
     }
 }
